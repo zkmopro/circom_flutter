@@ -3,8 +3,8 @@ import 'package:flutter/services.dart';
 import 'package:flutter/material.dart';
 import 'package:path_provider/path_provider.dart';
 
-import 'package:mopro_flutter_bindings/src/rust/third_party/circom_prover_bindings.dart';
-import 'package:mopro_flutter_bindings/src/rust/frb_generated.dart';
+import 'package:circom_flutter/src/rust/third_party/circom_prover_bindings.dart';
+import 'package:circom_flutter/src/rust/frb_generated.dart';
 
 Future<void> main() async {
   await RustLib.init();

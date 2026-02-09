@@ -31,7 +31,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  mopro_flutter_bindings:
+  circom_flutter:
     # When depending on this package from a real application you should use:
     #   mopro_flutter_bindings: ^x.y.z
     # See https://dart.dev/tools/pub/dependencies#version-constraints
